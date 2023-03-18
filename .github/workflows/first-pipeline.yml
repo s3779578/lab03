@@ -33,6 +33,12 @@ jobs:
           name: My-Artifact
           path: Hello.txt
           if-no-files-found: error 
+      
+      - name: create another txt file
+        uses : actions/upload-artifact@v3
+        with:
+          name: New-Artifact
+          path: artifact.txt 
 
 
 
