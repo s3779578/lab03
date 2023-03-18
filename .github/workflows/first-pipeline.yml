@@ -32,6 +32,7 @@ jobs:
         with: 
           name: My-Artifact
           path: Hello.txt
+          if-no-files-found: error 
 
 
 
